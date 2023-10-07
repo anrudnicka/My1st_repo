@@ -24,8 +24,7 @@ public class BmiIndex {
             System.out.println("Twoje BMI wskazuje na otyłość I stopnia. Zmień dietę! Zacznij ćwiczyć!");}
         else if (bmi>=34.9) {
             System.out.println("Twoje BMI wskazuje na otyłość kliniczną.Zgłoś się do lekarza!");
-            System.out.println("KOniec" +
-                    " ");}
+            }
     }
 
 }
