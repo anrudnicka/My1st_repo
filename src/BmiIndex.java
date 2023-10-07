@@ -4,7 +4,7 @@ public class BmiIndex {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Podaj swoją wagę [w kg] ");
         double weight=scanner.nextDouble();
-        System.out.println("Podaj swój wzrost [w m!]");
+        System.out.println("Podaj swój wzrost [w metrach!]");
         double height = scanner.nextDouble();
 
         double heightPower = Math.pow(height,2);
