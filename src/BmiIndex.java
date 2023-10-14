@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.io.*;
 
 public class BmiIndex {
     public static void main(String[] args) {
@@ -20,7 +19,7 @@ public class BmiIndex {
     return weight;
     }
     private static double getHeight(Scanner scanner) {
-    System.out.println("Podaj swój wzrost [w metrach!]");
+    System.out.println("Podaj swój wzrost [w metrach! Jako separator użyj \",\"]");
     double height = scanner.nextDouble();
     while (height > 3 || height < 0.3) {
     System.out.println("To niewłaściwe dane");
